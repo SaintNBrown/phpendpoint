@@ -12,25 +12,10 @@
     'current_day' => $today,
     'utc_time' => $utcTime,
     'track' => $track,
-    'github_file_url' => '',
-    'github_repo_url' => '',
+    'github_file_url' => 'https://github.com/SaintNBrown/phpendpoint/blob/main/endpoint.php',
+    'github_repo_url' => 'https://github.com/SaintNBrown/phpendpoint',
     'status_code' => 200
   ];
 
   echo json_encode($response, JSON_PRETTY_PRINT);
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>endpoint</title>
-</head>
-<body>
-  <form action="<?php echo $_SERVER["PHP_SELF"] ;?>" method="get">
-
-  </form>
-</body>
-</html>
