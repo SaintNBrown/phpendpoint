@@ -12,8 +12,8 @@
     'current_day' => $today,
     'utc_time' => $utcTime,
     'track' => $track,
-    'github_file_url' => 'https://github.com/SaintNBrown/phpendpoint/blob/main/endpoint.php',
-    'github_repo_url' => 'https://github.com/SaintNBrown/phpendpoint',
+    'github_file_url' => 'https:&#47;&#47;github.com&#47;SaintNBrown&#47;phpendpoint&#47;blob&#47;main&#47;endpoint.php',
+    'github_repo_url' => 'https:&#47;&#47;github.com&#47;SaintNBrown&#47;phpendpoint',
     'status_code' => 200
   ];
 
